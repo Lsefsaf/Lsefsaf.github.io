@@ -157,9 +157,9 @@ footer  {
 
 a{
   color: black;
-
   text-decoration:none;
 }
+
 
 
 /* PAGE CONTACT */
@@ -228,5 +228,16 @@ a{
 }
 .projet-image:hover img{
   filter:blur(3.5px);
-	
+
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color:red;
+	font-style: italic;
 }
