@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+    font-family: 'fondation';
+    src: url('./font/fondation-bold-webfont.woff2') format('woff2'),
+         url('./font/fondation-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fondation';
+    src: url('./font/fondation-light-webfont.woff2') format('woff2'),
+         url('./font/fondation-light-webfont.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+/*PAGE ACCUEIL*/
+
+html{
+  font-family: 'fondation';
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+html *{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid;
+  border-color:rgb(0, 24, 255);
+}
+
+img {
+  max-width: 100%;
+  height : auto;
+}
+
+p{
+	line-height: normal;
+}
+
+.Header--title{
+  text-align: left;
+  font-size: 0.8em;
+  padding-top: 5px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+
+.projet--title{
+	text-align: center;
+	margin-top: 15px;
+	/*margin-bottom: 100px;*/
+}
+
+.boite{
+	display: flex;
+}
+
+.colonne figure, .colonne p{
+	width: 100%;
+	max-width: 100%;
+}
+
+.colonne{
+	/*padding: 0 1.6em;*/
+	margin-top: 1.5em;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+}
+
+
+
+p {
+  font-family: 'fondation';
+  font-weight: lighter;
+  font-style: normal;
+  text-align: left;
+}
+
+em {
+font-style: italic;
+font-weight: lighter;
+}
+
+p strong
+{
+	font-weight:700;
+}
+
+figure {
+  width: 42%;
+
+}
+
+footer  {
+  max-width: 50%;
+  height : auto;
+  font-size: 0.6em;
+	margin-top: 30px;
+}
+
+a{
+  color: black;
+
+  text-decoration:none;
+}
+
+
+/* PAGE CONTACT */
+
+.CV{
+	margin-bottom: 20px;
+	font-size: 2em;
+	/*text-decoration: line-through;
+	text-decoration-color: rgb(0, 24, 255);*/
+
+}
+
+.categories{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.info{
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+.annees{
+}
+
+.lieux{
+	font-style: italic;
+	font-size: 0.8em;
+	margin-bottom: 15px;
+}
+
+/* PAGE SWEET MOBIL-HOME*/
+
+.projet--title--page {
+		margin-bottom: 15px;
+		font-size: 2em;
+}
+
+.colonne-image-page figure,.colonne-image-page p{
+	width: 100%;
+	max-width: 100%;
+}
+
+.colonne-texte-page figure, .colonne-image-page p{
+	width: 100%;
+	max-width: 100%;
+}
+
+.colonne-image-page {
+	width: 60%;
+	margin-top: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+
+}
+
+.colonne-texte-page{
+	width: 30%;
+	margin-top: 1em;
+	margin-left: 2.5em;
+	position: fixed;
+
+}
+.projet-image:hover{
+	overflow: hidden;
+}
+.projet-image:hover img{
+  filter:blur(3.5px);
+	
+}
