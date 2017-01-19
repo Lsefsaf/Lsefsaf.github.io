@@ -127,6 +127,20 @@ p{
 	margin-right: 3em;
 	margin-left: 3em;
 }
+.colonne2 figure, .colonne p{
+	width: 100%;
+	max-width: 100%;
+}
+
+.colonne2 figure {
+	text-align: center;
+}
+.colonne2{
+	/*padding: 0 1.6em;*/
+	margin-top: 7em;
+	margin-right: 3em;
+	margin-left: 3em;
+}
 
 
 p {
@@ -256,4 +270,12 @@ a:hover{
 	font-style: italic;
 	font-size: 0.8em;
 	margin-bottom: 15px;
+}
+
+.banniere{
+	font-size: 8em;
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 300px;
+	color: rgb(0, 24, 255);
 }
