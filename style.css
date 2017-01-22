@@ -69,6 +69,7 @@ html{
   font-family: 'fondation';
   font-weight: bold;
   font-size: 16px;
+	font-size: calc(10px+3vw)
   box-sizing: border-box;
 }
 
@@ -100,6 +101,11 @@ p{
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 	text-decoration: none;
+}
+
+.about{
+	font-size: 1.5em;
+	margin-left: 10px;
 }
 
 .projet--title{
