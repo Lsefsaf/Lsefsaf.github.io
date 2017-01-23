@@ -81,8 +81,8 @@ body{
   margin: 10px;
   padding: 10px;
   background-color: white;
-  border: 2px solid;
-  border-color:rgb(0, 24, 255);
+  /*border: 2px solid;
+  border-color:rgb(0, 24, 255);*/
 }
 
 img {
@@ -96,27 +96,58 @@ p{
 
 .Header--title{
   text-align: left;
-  font-size: 0.8em;
+  font-size: 2em;
   padding-top: 5px;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 5px;
+
 	text-decoration: none;
+}
+
+h2{
+	font-size: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h3{
+	text-align: left;
+	margin-top: px;
+	margin-bottom: 25px;
+}
+
+.peace {
+	font-size: 10em;
+	padding-left: 30px;
+	text-align: right;
+	position: fixed;
+	color: rgb(0, 0, 255);
+}
+
+.back{
+	font-style: 0.5em;
+	padding-left: 20px;
+	padding-top: 50px;
+	text-align: right;
+	position: fixed;
+	color: rgb(0, 0, 255);
+
 }
 
 .about{
 	font-size: 1.5em;
 	margin-left: 10px;
+	color: rgb(0, 0, 255);
+	position:
 }
 
-.projet--title{
-	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 25px;
-	/*margin-bottom: 100px;*/
-}
+
+/* PROJETS */
 
 .boite{
 	display: flex;
+	margin-top: 7em;
+	margin-left: 11em;
+	margin-right: 1em;
 }
 
 .colonne figure, .colonne p{
@@ -128,10 +159,8 @@ p{
 	text-align: center;
 }
 .colonne{
-	/*padding: 0 1.6em;*/
-	margin-top: 1.5em;
-	margin-right: 3em;
-	margin-left: 3em;
+	margin-right: 2em;
+	margin-left: 2em;
 }
 .colonne2 figure, .colonne p{
 	width: 100%;
@@ -140,12 +169,6 @@ p{
 
 .colonne2 figure {
 	text-align: center;
-}
-.colonne2{
-	/*padding: 0 1.6em;*/
-	margin-top: 7em;
-	margin-right: 3em;
-	margin-left: 3em;
 }
 
 
@@ -190,6 +213,12 @@ a:hover{
 	color: red;
 }
 
+.projet-title {
+	font-size: 1em;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	text-align: left;
+}
 
 .projet-image:hover{
 	overflow: hidden;
@@ -199,23 +228,17 @@ a:hover{
   filter:blur(3.5px);
 }
 
-.suminagashi{
-	max-width: 70%;
-	height:auto;
 
-}
 
-.jaquette{
-	max-width: 85%;
-	height: auto;
-}
+
+
 
 
 /* PAGES PROJETS*/
 
-.projet--title--page {
-		margin-bottom: 15px;
-		font-size: 2em;
+
+.projet-title-page {
+	line-height: 1.5;
 }
 
 .colonne-image-page figure,.colonne-image-page p{
@@ -228,14 +251,16 @@ a:hover{
 .colonne-texte-page figure, .colonne-image-page p{
 	width: 100%;
 	max-width: 100%;
+	align-content: space-between;
+	margin-bottom: 2em;
 }
 
 .colonne-image-page {
 	width: 60%;
 	margin-top: 1em;
 	padding-right: 6em;
-	padding-left: 6em;
 	padding-bottom: 3em;
+	text-align: right;
 }
 
 .colonne-image-page img{
@@ -244,7 +269,6 @@ a:hover{
 .colonne-texte-page{
 	width: 30%;
 	margin-top: 1em;
-	margin-left: 2.5em;
 	position: fixed;
 }
 
