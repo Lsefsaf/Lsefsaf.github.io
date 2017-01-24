@@ -123,6 +123,10 @@ h3{
 	color: rgb(0, 0, 255);
 }
 
+.peace-img{
+	width: 200;
+}
+
 .back{
 	font-style: 0.5em;
 	padding-left: 20px;
@@ -272,8 +276,22 @@ a:hover{
 	position: fixed;
 }
 
+.link-girls{
+	font-style: normal;
+	text-decoration: underline;
+}
 
-/* PAGE CONTACT */
+/* PAGE CONTACT*/
+
+.contact{
+	font-weight: bold;
+	font-size: 5.5em;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-left: 6em;
+}
+
+/* PAGE ABOUT */
 
 .CV{
 	margin-bottom: 20px;
