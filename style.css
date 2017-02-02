@@ -171,6 +171,14 @@ h3{
 	max-width: 100%;
 }
 
+.colonne3 figure {
+	text-align: center;
+}
+.colonne3 figure, .colonne p{
+	width: 100%;
+	max-width: 100%;
+}
+
 .colonne2 figure {
 	text-align: center;
 }
