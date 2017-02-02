@@ -44,6 +44,10 @@ html {
   display: none;
 }
 
+.peace-img{
+  display:none;
+}
+
   .contact{
     margin-left: 0;
   }
