@@ -69,7 +69,7 @@ html{
   font-family: 'fondation';
   font-weight: bold;
   font-size: 16px;
-	font-size: calc(10px+3vw)
+	/*font-size: calc(10px + 1vw);*/
   box-sizing: border-box;
 }
 
@@ -163,24 +163,16 @@ h3{
 	text-align: center;
 }
 .colonne{
-	margin-right: 2em;
-	margin-left: 2em;
-}
-.colonne2 figure, .colonne p{
-	width: 100%;
-	max-width: 100%;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
-.colonne3 figure {
-	text-align: center;
-}
-.colonne3 figure, .colonne p{
-	width: 100%;
-	max-width: 100%;
+.colonne:first-child{
+	margin-left:0;
 }
 
-.colonne2 figure {
-	text-align: center;
+.colonne:last-child{
+	margin-right:0;
 }
 
 
@@ -283,6 +275,7 @@ a:hover{
 	width: 30%;
 	margin-top: 1em;
 	position: fixed;
+	left:65%;
 }
 
 .link-girls{
