@@ -97,7 +97,6 @@ p{
 .Header--title{
   text-align: left;
   font-size: 2em;
-  padding-top: 5px;
 	margin-bottom: 5px;
 
 	text-decoration: none;
@@ -142,6 +141,21 @@ h3{
 	margin-left: 10px;
 	color: rgb(0, 0, 255);
 	position:
+}
+
+
+.fr-en{
+text-align: right;
+border-bottom: 0;
+margin-bottom: 0;
+}
+
+.soulignage{
+	color: rgb(0, 0, 255);
+	text-decoration: underline;
+	text-decoration-style: solid;
+	font-style: normal;
+	font-weight: bold;
 }
 
 
