@@ -161,6 +161,12 @@ margin-bottom: 0;
 	font-weight: bold;
 }
 
+.titre-light{
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 0.8em;
+}
+
 
 /* PROJETS */
 

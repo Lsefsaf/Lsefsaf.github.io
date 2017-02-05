@@ -40,10 +40,6 @@ html {
 
 @media screen and (max-width: 1307px){
 
-.peace, .back{
-  display: none;
-}
-
 .peace-img{
   display:none;
 }
