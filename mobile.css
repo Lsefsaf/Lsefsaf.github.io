@@ -16,8 +16,10 @@ html {
 .peace, .back {
   display: none;
 }
-.boite.page-projet {
-  flex-direction: column-reverse;
+
+.boite, .page-projet {
+  flex-basis: 100%;
+  flex-direction: column;
 }
 
 .colonne-image-page {
