@@ -18,7 +18,7 @@ html {
   display:none;
 }
 
-.boite, .page-projet {
+.boite{
   flex-basis: 100%;
   flex-direction: column;
 }
