@@ -7,14 +7,15 @@
 }
 
 html {
-  font-size: 15px;
+  font-size: 12px;
 }
 .colonne, .colonne:first-child, .colonne:last-child {
   flex-basis: 100%;
   margin:0;
 }
-.peace, .back {
-  display: none;
+
+.peace-img{
+  display:none;
 }
 
 .boite, .page-projet {
@@ -40,11 +41,76 @@ html {
 }
 }
 
-@media screen and (max-width: 1307px){
+@media screen and (max-width: 640px){
+.boite {
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right:0;
+  margin-top:0;
+}
+
+html {
+  font-size: 8px;
+}
+
+h2{
+  font-size: 1.7em;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+.projet-title{
+  font-size: 1.5em;
+}
+
+.projet-title-page{
+  font-size: 1.5em;
+}
+
+.colonne, .colonne:first-child, .colonne:last-child {
+  flex-basis: 100%;
+  margin:0;
+}
 
 .peace-img{
   display:none;
 }
+
+.boite, .page-projet {
+  flex-basis: 100%;
+  flex-direction: column;
+}
+
+.colonne-image-page {
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.colonne-texte-page {
+ width: 100%;
+ position: static;
+}
+
+.contact{
+  font-size: 2em;
+  margin-left: 0;
+  margin-top: 2em;
+}
+
+.Header--title{
+  margin-top: 15px;
+}
+
+}
+
+
+
+@media screen and (max-width: 1307px){
+
+
 
   .contact{
     margin-left: 0;
