@@ -41,7 +41,7 @@ html {
 }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 540px){
 .boite {
   flex-wrap: wrap;
   margin-left: 0;
@@ -74,9 +74,6 @@ p{
   margin:0;
 }
 
-.peace-img{
-  display:none;
-}
 
 .boite, .page-projet {
   flex-basis: 100%;
@@ -111,8 +108,12 @@ p{
 @media screen and (max-width: 1307px){
 
 
-
   .contact{
     margin-left: 0;
   }
+
+  .peace-img{
+    display:none;
+  }
+
 }
