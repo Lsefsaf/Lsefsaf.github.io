@@ -129,6 +129,13 @@ h3{
 	position: fixed;
 }
 
+.peace-img2{
+	width: 80px;
+	margin-left: 25px;
+	margin-top: 30px;
+	position: fixed;
+}
+
 .back{
 	font-style: 0.5em;
 	padding-left: 20px;
@@ -257,7 +264,13 @@ a:hover{
 }
 
 
+.peace-img:hover img{
+	overflow: hidden;
+}
 
+.peace-img:hover img{
+  filter:blur(2.5px);
+}
 
 
 
@@ -364,7 +377,7 @@ a:hover{
 	font-size: 1.5em;
 	margin-bottom: 10px;
 	text-align: right;
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-bottom:20px;
 }
 
