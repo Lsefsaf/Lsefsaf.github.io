@@ -351,6 +351,10 @@ a:hover{
 
 }
 
+.download{
+	text-decoration: underline;
+}
+
 .categories{
 	font-size: 1.5em;
 	margin-bottom: 10px;
